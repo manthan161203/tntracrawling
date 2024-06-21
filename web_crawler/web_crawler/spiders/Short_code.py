@@ -4,10 +4,11 @@ from urllib.parse import urlparse, urljoin
 import os
 import re
 from html import unescape
+from langdetect import detect
 
 class MySpider(scrapy.Spider):
     name = 'spider_for_data_short'
-    start_urls = ['https://global.abb/']
+    start_urls = ['https://www.regeny.ae/']
     allowed_domains = [urlparse(url).netloc for url in start_urls]
 
     custom_settings = {
@@ -27,9 +28,16 @@ class MySpider(scrapy.Spider):
         self.logger.debug(f"Parsing URL: {response.url}")
 
         title = response.css('title::text').get()
+        lang = response.css('html::attr(lang)').get()
+        if lang is None or lang.lower() != 'en':
+            text_sample = ' '.join(response.css('body *::text').getall()).strip()
+            if text_sample:
+                detected_lang = detect(text_sample)
+                if detected_lang != 'en':
+                    self.logger.debug(f"Ignoring non-English URL: {response.url}")
+                    return
 
         seen_content = set()
-
         text_content = ""
 
         target_tags = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'strong', 'article', 'a']
@@ -113,4 +121,3 @@ class MySpider(scrapy.Spider):
 
     def closed(self, reason):
         self.logger.info(f"Spider closed due to: {reason}.")
-

@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30287e99-0967-49f8-b6cd-61bea8c39f9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tntracrawl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_crawler/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_crawler/web_crawler/spiders/Big_Code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_crawler/web_crawler/spiders/load_all_js.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_crawler/web_crawler/spiders/recursive_spider.py" afterDir="false" />
+    <list default="true" id="30287e99-0967-49f8-b6cd-61bea8c39f9f" name="Changes" comment="- Cookies vala add karna baki he&#10;- otherwise clean data done&#10;- duplicate data done&#10;- we can add more content related tags&#10;- unique links and all links are extracted&#10;- english content hi ayega">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "manthan161203"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/manthan161203/tntracrawling.git",
+    "accountId": "d3031462-339a-4f73-b994-761fdb124a63"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -68,6 +76,42 @@
       <option name="presentableId" value="Default" />
       <updated>1718688054755</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Cookies vala add karna baki he&#10;- otherwise clean data done&#10;- duplicate data done&#10;- we can add more content related tags&#10;- unique links and all links are extracted&#10;- english content hi ayega">
+      <option name="closed" value="true" />
+      <created>1718961567477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718961567477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="development" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Cookies vala add karna baki he&#10;- otherwise clean data done&#10;- duplicate data done&#10;- we can add more content related tags&#10;- unique links and all links are extracted&#10;- english content hi ayega" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Cookies vala add karna baki he&#10;- otherwise clean data done&#10;- duplicate data done&#10;- we can add more content related tags&#10;- unique links and all links are extracted&#10;- english content hi ayega" />
   </component>
 </project>
